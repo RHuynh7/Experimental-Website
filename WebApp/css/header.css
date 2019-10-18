@@ -1,66 +1,42 @@
 
-.portfolio-hero-header {
+.marketing-site-hero {
+  background: url("https://images.pexels.com/photos/8264/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb") top right no-repeat;
+  height: 65vh;
+  background-size: cover;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e6e6e6;
-  padding: 2rem 0;
 }
 
-.portfolio-hero-header-description {
-  list-style-type: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0;
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
 }
 
-.portfolio-hero-header-description li {
-  -webkit-flex: 1 0 200px;
-      -ms-flex: 1 0 200px;
-          flex: 1 0 200px;
-  text-align: center;
-  padding: 0 1.25rem;
-  position: relative;
-  white-space: nowrap;
+.marketing-site-hero-content {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.portfolio-hero-header-description li:before {
-  content: "*";
-  position: absolute;
-  left: 0;
-  top: 5px;
+.marketing-site-hero-content h1 {
+  font-size: 32px;
 }
 
-.portfolio-hero-header-description li:first-child:before {
-  content: "";
+.marketing-site-hero-content .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
 }
 
-.portfolio-hero-header-menu {
-  list-style-type: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0;
-}
-
-.portfolio-hero-header-menu li {
-  margin: 1.25rem;
-}
-
-.portfolio-hero-header-menu li a {
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 50%;
+  }
 }

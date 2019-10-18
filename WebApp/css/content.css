@@ -1,129 +1,31 @@
 
-.clean-hero-slider .orbit-caption {
-  width: auto;
-  height: auto;
-  background: #0a0a0a;
-  position: absolute;
-  text-align: center;
-  right: 0;
-  left: 0;
-  padding: 0.2rem 2rem;
+.filter-simple .button-group {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-caption {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.6);
-    text-align: left;
-    width: 70%;
-    right: 0;
-    padding: 1rem 2rem;
-  }
+.filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+  background-color: #1779ba;
+  color: #fefefe;
 }
 
-@media screen and (min-width: 75em) {
-  .clean-hero-slider .orbit-caption {
-    padding-right: 10%;
-  }
+.button-group.round :first-child {
+  border-radius: 5000px 0 0 5000px;
+
 }
 
-@media screen and (min-width: 90em) {
-  .clean-hero-slider .orbit-caption {
-    padding-right: 20%;
-  }
+.button-group.round :last-child {
+  border-radius: 0 5000px 5000px 0;
+
 }
 
-.clean-hero-slider .orbit-caption p {
-  font-size: 0.9rem;
-  line-height: 1.25;
+.column-block {
+  margin-bottom: 30px;
+
 }
 
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-caption p {
-    font-size: 1.1rem;
-  }
-}
-
-.clean-hero-slider .orbit-caption h3 {
-  color: #ffae00;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-caption h3 {
-    font-size: 2.5rem;
-    font-weight: normal;
-  }
-}
-
-.clean-hero-slider .orbit-slide {
-  padding-bottom: 40%;
-  background: #0a0a0a;
-}
-
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-slide {
-    padding-bottom: 0;
-  }
-}
-
-.clean-hero-slider .orbit-controls button {
-  background: #ffae00;
-  padding: 1rem 0.5rem;
-}
-
-.clean-hero-slider .orbit-controls button:hover {
-  background: #fefefe;
-  color: #0a0a0a;
-}
-
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-controls .orbit-previous {
-    left: auto;
-    right: 2.4rem;
-  }
-}
-
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-controls .orbit-next {
-    right: 0.5rem;
-  }
-}
-
-.clean-hero-slider .orbit-bullets {
-  display: none;
-}
-
-@media print, screen and (min-width: 40em) {
-  .clean-hero-slider .orbit-bullets {
-    display: block;
-    margin-bottom: 0;
-    margin-top: -3rem;
-    background: none;
-  }
-}
-
-.clean-hero-slider .orbit-bullets button {
-  width: 3rem;
-  height: 0.4rem;
-  border-radius: 0;
-  background-color: #fefefe;
-}
-
-.clean-hero-slider .orbit-bullets button.is-active {
-  background-color: #ffae00;
-}
-
-.clean-hero-slider ul.orbit-container {
-  height: auto !important;
-}
-
-.clean-hero-slider li.orbit-slide {
-  max-height: none !important;
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
