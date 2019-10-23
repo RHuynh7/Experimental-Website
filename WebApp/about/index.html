@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ET710</title>
+    <title>Rebecca Huynh</title>
 
     <!-- The font Awesome code below is several revisions back.
     https://stackoverflow.com/questions/14698589/fontawesome-not-available-as-a-font-family
@@ -32,7 +32,7 @@
             <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
               <button class="menu-icon" type="button" data-toggle></button>
             </span>
-            <a class="topbar-responsive-logo" href="#"><strong>ET710 Midterm Practice</strong></a>
+            <a class="topbar-responsive-logo" href="#"><strong>Rebecca Huynh</strong></a>
           </div>
           <div id="topbar-responsive" class="topbar-responsive-links">
             <div class="top-bar-right">
@@ -67,28 +67,29 @@
 
 
     <!-- *Begin Content* -->
-    <h1>ABOUT</h1>
     <!-- *Begin Angular JS* -->
     <div ng-view></div>
     <!-- *End Angular JS* -->
-    <div class="marketing-site-content-section">
-      <div class="marketing-site-content-section-img">
-        <img src="https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" />
+    <section class="filter-simple">
+      <div class="button-group round">
+        <button class="button hollow filter-simple-button is-active" data-filter="all">All</button>
+        <button class="button hollow filter-simple-button" data-filter="space">Space</button>
+        <button class="button hollow filter-simple-button" data-filter="animals">Animals</button>
+        <button class="button hollow filter-simple-button" data-filter="nature">Nature</button>
       </div>
-      <div class="marketing-site-content-section-block">
-        <h3 class="marketing-site-content-section-block-header">Yeti Snowcone Agency</h3>
-        <p class="marketing-site-content-section-block-subheader subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam omnis, maxime libero natus qui minus!</p>
-        <a href="#" class="round button small">learn more</a>
+
+      <div class="row small-up-2 medium-up-3 large-up-4 flex-wrap">
+        <div class="column column-block filter-simple-item space">
+          <img src="https://spaceholder.cc/350x350" alt="" />
+        </div>
+        <div class="column column-block filter-simple-item nature">
+          <img src="https://placeimg.com/350/350/nature" alt="" />
+        </div>
+        <div class="column column-block filter-simple-item animals">
+          <img src="https://placeimg.com/350/350/animals" alt="" />
+        </div>
       </div>
-      <div class="marketing-site-content-section-block small-order-2 medium-order-1">
-        <h3 class="marketing-site-content-section-block-header">Yeti Snowcone Agency</h3>
-        <p class="marketing-site-content-section-block-subheader subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam omnis, maxime libero natus qui minus!</p>
-        <a href="#" class="round button small">learn more</a>
-      </div>
-      <div class="marketing-site-content-section-img small-order-1 medium-order-2">
-        <img src="https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?h=350&auto=compress&cs=tinysrgb" alt="" />
-      </div>
-    </div>
+    </section>
     <!-- *End Content* -->
 
 
@@ -143,7 +144,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="marketing-site-footer-bottom">
         <div class="row large-unstack align-middle">
           <div class="column">
