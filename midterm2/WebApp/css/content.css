@@ -1,0 +1,31 @@
+
+.filter-simple .button-group {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter-simple .filter-simple-button.hollow.is-active, .filter-simple .filter-simple-button.hollow:focus, .filter-simple .filter-simple-button.hollow:active {
+  background-color: #1779ba;
+  color: #fefefe;
+}
+
+.button-group.round :first-child {
+  border-radius: 5000px 0 0 5000px;
+
+}
+
+.button-group.round :last-child {
+  border-radius: 0 5000px 5000px 0;
+
+}
+
+.column-block {
+  margin-bottom: 30px;
+
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
