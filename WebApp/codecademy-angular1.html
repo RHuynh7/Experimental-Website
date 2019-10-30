@@ -1,9 +1,10 @@
 <!doctype html>
-<html ng-app="customersApp" class="no-js" lang="en" dir="ltr">
+<html>
   <head>
       <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" />
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -105,89 +106,90 @@
            <div ng-repeat="product in products" class="col-md-6">
      				<div class="thumbnail">
        				<img ng-src="{{ product.cover }}">
-     				  <p class="title"> {{ product.name }} </p>
-           </div>
+       				<p class="title">{{ product.name }}</p>
+
+     				</div>
    				</div>
- 				</div>
 
-    </div>
-
-     <!-- *Begin Footer* -->
-     <footer class="marketing-site-footer">
-     <div class="grid-x grid-padding-x">
-         <div class="medium-4 cell">
-           <h4 class="marketing-site-footer-name"></h4>
-           <p>Building and maintaining websites.</p>
-           <ul class="menu marketing-site-footer-menu-social simple">
-             <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-           </ul>
-         </div>
-         <div class="medium-4 cell">
-            <h4 class="marketing-site-footer-title">Contact Info</h4>
-           <div class="marketing-site-footer-block">
-             <i class="fa fa-map-marker" aria-hidden="true"></i>
-             <p>Queensborough Community College<br>Bayside, NY 11364</p>
-           </div>
-           <div class="marketing-site-footer-block">
-             <i class="fa fa-phone" aria-hidden="true"></i>
-             <p>347.285.6822</p>
-           </div>
-           <div class="marketing-site-footer-block">
-             <i class="fa fa-envelope-o" aria-hidden="true"></i>
-             <p>rebeccahuynh7@gmail.com</p>
-           </div>
-         </div>
-         <div class="large-4 cell">
-           <h4 class="marketing-site-footer-title">Photos</h4>
-             <div class="grid-x grid-padding-y">
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
- 	    	<div class="large-4 medium-6 small-12 cell">
-               <img src="https://placehold.it/75" alt="" />
-             </div>
-           </div>
          </div>
        </div>
 
-       <div class="marketing-site-footer-bottom">
-         <div class="row large-unstack align-middle">
-           <div class="column">
-             <p>&copy; RHuynh - 2019 All rights reserved</p>
-           </div>
-           <div class="column">
-             <ul class="menu marketing-site-footer-bottom-links">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="about/index.html">About</a></li>
-               <li><a href="index.html#!/services">Services</a></li>
-               <li><a href="#">Works</a></li>
-               <li><a href="index.html#!/news">News</a></li>
-               <li><a href="index.html#!/contact">Contact</a></li>
+       <!-- *Begin Footer* -->
+       <footer class="marketing-site-footer">
+       <div class="grid-x grid-padding-x">
+           <div class="medium-4 cell">
+             <h4 class="marketing-site-footer-name"></h4>
+             <p>Building and maintaining websites.</p>
+             <ul class="menu marketing-site-footer-menu-social simple">
+               <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
              </ul>
            </div>
+           <div class="medium-4 cell">
+              <h4 class="marketing-site-footer-title">Contact Info</h4>
+             <div class="marketing-site-footer-block">
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+               <p>Queensborough Community College<br>Bayside, NY 11364</p>
+             </div>
+             <div class="marketing-site-footer-block">
+               <i class="fa fa-phone" aria-hidden="true"></i>
+               <p>347.285.6822</p>
+             </div>
+             <div class="marketing-site-footer-block">
+               <i class="fa fa-envelope-o" aria-hidden="true"></i>
+               <p>rebeccahuynh7@gmail.com</p>
+             </div>
+           </div>
+           <div class="large-4 cell">
+             <h4 class="marketing-site-footer-title">Photos</h4>
+               <div class="grid-x grid-padding-y">
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+   	    	<div class="large-4 medium-6 small-12 cell">
+                 <img src="https://placehold.it/75" alt="" />
+               </div>
+             </div>
+           </div>
          </div>
-       </div>
-     </footer>
-     <!-- *End Footer* -->
 
-         <script src="js/vendor/jquery.js"></script>
-         <script src="js/vendor/what-input.js"></script>
-         <script src="js/vendor/foundation.js"></script>
-         <script src="js/app.js"></script>
+         <div class="marketing-site-footer-bottom">
+           <div class="row large-unstack align-middle">
+             <div class="column">
+               <p>&copy; RHuynh - 2019 All rights reserved</p>
+             </div>
+             <div class="column">
+               <ul class="menu marketing-site-footer-bottom-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about/index.html">About</a></li>
+                 <li><a href="index.html#!/services">Services</a></li>
+                 <li><a href="#">Works</a></li>
+                 <li><a href="index.html#!/news">News</a></li>
+                 <li><a href="index.html#!/contact">Contact</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </footer>
+       <!-- *End Footer* -->
+
+       <script src="js/vendor/jquery.js"></script>
+       <script src="js/vendor/what-input.js"></script>
+       <script src="js/vendor/foundation.js"></script>
+       <script src="js/app.js"></script>
 
     <!-- Modules -->
     <script src="js/app2.js"></script>
