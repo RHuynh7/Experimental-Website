@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Artwork';
-  $scope.promo = 'A combination of digital and traditional art';
+  $scope.title = 'Digital Art';
+  $scope.promo = '';
   $scope.products = [
   	{
     	name: 'Stargazer',
@@ -22,6 +22,7 @@ app.controller('MainController', ['$scope', function($scope) {
       name: 'LOONA Galaxy',
       cover: 'img/loona-black.png'
     },
+
     {
       name: 'Blind Owl',
       cover: 'img/blind-owl.jpg'

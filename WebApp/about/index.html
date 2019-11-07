@@ -25,34 +25,57 @@
   </head>
   <body>
     <!-- *Begin Nav* -->
-    <div data-sticky-container>
-      <div class="sticky" data-sticky data-margin-top="0">
-        <nav class="top-bar topbar-responsive">
-          <div class="top-bar-title">
-            <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-              <button class="menu-icon" type="button" data-toggle></button>
-            </span>
-            <a class="topbar-responsive-logo" href="#"><strong>Rebecca Huynh</strong></a>
-          </div>
-          <div id="topbar-responsive" class="topbar-responsive-links">
-            <div class="top-bar-right">
-              <ul class="menu simple vertical medium-horizontal">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="../index.html#!/services">Services</a></li>
-                <li><a href="../works.html">Works</a></li>
-                <li><a href="../index.html#!/news">News</a></li>
-                <li><a href="../index.html#!/contact">Contact</a></li>
-                <li>
-                  <button type="button" class="button hollow topbar-responsive-button">Categories</button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+    <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+
+      <ul class="vertical menu">
+        <li class="off-canvas-menu-item"><a href="../index.html">HOME</a></li>
+        <ul class="vertical menu" data-accordion-menu>
+          <li><a href="#">ART</a>
+            <ul class="menu vertical nested">
+              <li><a href="../graphic.html">Graphic Design</a></li>
+              <li><a href="../indesign.html">InDesign</a></li>
+              <li><a href="../digital.html">Digital Art</a></li>
+              <li><a href="../illustrations.html">Illustrations</a></li>
+              <li><a href="../paintings.html">Paintings</a></li>
+             </ul>
+          </li>
+         </ul>
+        <li><a href="#">ABOUT ME</a></li>
+        <li><a href="../contact.html">CONTACT ME</a></li>
+      </ul>
+
+      <ul class="menu simple social-links">
+        <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
-    <!-- *End Nav* -->
+
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div class="nav-bar">
+          <div class="nav-bar-left">
+            <a class="nav-bar-logo"><img class="logo" src="https://placehold.it/150x30"></a>
+          </div>
+          <div class="nav-bar-right">
+            <ul class="menu">
+              <li class="hide-for-small-only"><a href="index.html"></a></li>
+              <li>
+              <li>
+                <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+                  <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+                  <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                </button>
+              </li>
+            </ul>
+        </div>
+      </div>
+     </div>
+     <!-- *End Nav* -->
 
 
     <!-- *Begin Header* -->

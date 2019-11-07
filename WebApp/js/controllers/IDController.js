@@ -1,6 +1,6 @@
-app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Artwork';
-  $scope.promo = 'A combination of digital and traditional art';
+app.controller('IDController', ['$scope', function($scope) {
+  $scope.title = 'InDesign Work';
+  $scope.promo = 'Art And Newspaper Pages Made With InDesign';
   $scope.products = [
   	{
     	name: 'Stargazer',

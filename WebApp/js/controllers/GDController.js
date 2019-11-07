@@ -1,6 +1,6 @@
-app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Artwork';
-  $scope.promo = 'A combination of digital and traditional art';
+app.controller('GDController', ['$scope', function GDController($scope) {
+  $scope.title = 'Graphic Design';
+  $scope.promo = 'Logos, Posters, And General Graphic Design Projects';
   $scope.products = [
     {
       name: 'Seudo Productions',
