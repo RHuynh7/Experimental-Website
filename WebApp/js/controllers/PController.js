@@ -3,8 +3,8 @@ app.controller('PController', ['$scope', function GDController($scope) {
   $scope.promo = '';
   $scope.products = [
     {
-      name: 'Seudo Productions',
-      cover: 'img/seudo-productions.jpg'
+      name: '',
+      cover: ''
     },
 
   ];

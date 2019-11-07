@@ -1,6 +1,6 @@
 app.controller('IllController', ['$scope', function IllController($scope) {
   $scope.title = 'Illustrations';
-  $scope.promo = '';
+  $scope.promo = 'Illustrations using pencil, pen, and/or marker';
   $scope.products = [
     {
       name: 'Untitled',

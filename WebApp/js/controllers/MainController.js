@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.title = 'Digital Art';
-  $scope.promo = '';
+  $scope.promo = 'Art created with Photoshop and/or SAI Paint Tool';
   $scope.products = [
   	{
     	name: 'Stargazer',
