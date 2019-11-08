@@ -3,14 +3,6 @@ app.controller('GDController', ['$scope', function GDController($scope) {
   $scope.promo = 'Logos, Posters, And General Graphic Design Projects';
   $scope.products = [
     {
-      name: 'Seudo Productions',
-      cover: 'img/seudo-productions.jpg'
-    },
-    {
-    	name: 'Gunfire',
-    	cover: 'img/political.jpg'
-  	},
-    {
     	name: 'Visionaire Poster',
     	cover: 'img/Visionaire.jpg'
   	},
@@ -18,6 +10,22 @@ app.controller('GDController', ['$scope', function GDController($scope) {
     	name: 'Wolf Kings Poster',
     	cover: 'img/Wolf-Kings.jpg'
   	},
+    {
+      name: 'PSA Poster',
+      cover: 'img/psa-poster.jpg'
+    },
+    {
+      name: 'Intergalactic Doorway',
+      cover: 'img/red-door.jpg'
+    },
+    {
+      name: 'Species: Unknown',
+      cover: 'img/goat.jpg'
+    },
+    {
+      name: 'Seudo Productions',
+      cover: 'img/seudo-productions-long.jpg'
+    },
     {
       name: 'EXO Studios',
       cover: 'img/exo-studios.jpg'
