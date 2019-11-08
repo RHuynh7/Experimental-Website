@@ -1,5 +1,5 @@
 app.controller('IDController', ['$scope', function($scope) {
-  $scope.title = 'InDesign Work';
+  $scope.title = 'InDesign';
   $scope.promo = 'Art And Newspaper Pages Made With InDesign';
   $scope.products = [
   	{
