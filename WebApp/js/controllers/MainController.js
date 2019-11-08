@@ -11,6 +11,14 @@ app.controller('MainController', ['$scope', function($scope) {
       cover: 'img/Stargazer-feather-hoop.png'
     },
     {
+      name: 'Stargazer',
+      cover: 'img/stargazer-one.png'
+    },
+    {
+      name: 'Stargazer',
+      cover: 'img/stargazer-original.png'
+    },
+    {
       name: 'LOONA Galaxy',
       cover: 'img/loona-black.png'
     },
@@ -18,7 +26,6 @@ app.controller('MainController', ['$scope', function($scope) {
       name: 'LOONA Galaxy',
       cover: 'img/loona-white.png'
     },
-
     {
       name: 'Blind Owl',
       cover: 'img/blind-owl.jpg'
@@ -31,13 +38,10 @@ app.controller('MainController', ['$scope', function($scope) {
       name: 'Gunfire',
       cover: 'img/political.jpg'
     },
+
     {
-      name: 'Stargazer',
-      cover: 'img/stargazer-one.png'
-    },
-    {
-      name: 'Stargazer',
-      cover: 'img/stargazer-original.png'
+      name: 'Rebecca',
+      cover: 'img/name-logo.jpg'
     },
   ];
   $scope.plusOne = function(index) {
