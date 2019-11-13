@@ -27,8 +27,10 @@
 .marketing-site-hero-content h1 {
   font-size: 50px;
   color: #97f6f7;
-  text-align: center;
-}
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
 
 .marketing-site-hero-content .button.round {
   border-radius: 5000px;
