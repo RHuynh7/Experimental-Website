@@ -46,6 +46,19 @@ app.controller('GDController', ['$scope', function GDController($scope) {
       name: 'Tweet Inc.',
       cover: 'img/tweet-inc.jpg'
     },
+    {
+      name: 'Sunset',
+      cover: 'img/Symmetrical Design.jpg'
+    },
+    {
+      name: '',
+      cover: 'img/Business Cards.jpg'
+    },
+    {
+      name: '',
+      cover: 'img/Inspirational Quote Design.jpg'
+    },
+
   ];
   $scope.plusOne = function(index) {
   	$scope.products[index].likes += 1;
