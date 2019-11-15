@@ -1,4 +1,4 @@
-var app = angular.module('customersApp',['ngRoute']);
+var app = angular.module('spaApp',['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider.when('/',
     {
