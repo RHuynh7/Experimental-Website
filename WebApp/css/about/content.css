@@ -1,0 +1,64 @@
+
+.portfolio-resume-spacing {
+  margin-bottom: 2rem;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem 4rem;
+}
+
+.portfolio-resume-headshot {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+.portfolio-resume-header {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-resume-contact-info a {
+  color: #0a0a0a;
+}
+
+.portfolio-resume-contact-info .fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  vertical-align: middle;
+  color: #0a0a0a;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.middle {
+  width: 70%;
+}
+
+.right {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
