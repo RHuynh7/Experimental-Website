@@ -5,45 +5,61 @@ app.config(function($routeProvider) {
       controller:'HomeController',
       templateUrl: 'app/views/home.html'
     })
-  .when('/works',
-    {
-      controller: 'WorksController',
-      templateUrl: 'app/views/works.html'
-    })
-    .when('/news',
+    .when('/about',
       {
-        controller: 'NewsController',
-        templateUrl: 'app/views/news.html'
+        controller: 'AboutController',
+        templateUrl: 'app/views/about.html'
       })
    .when('/contact',
       {
         controller: 'ContactController',
         templateUrl: 'app/views/contact.html'
       })
-   .when('/story',
+    .when('/illustrations',
       {
-        controller: 'StoryController',
-        templateUrl: 'app/views/story.html'
+        controller: 'IllController',
+        templateUrl: 'app/views/illustrations.html'
       })
-  .when('/adam',
+   .when('/digital',
+      {
+        controller: 'MainController',
+        templateUrl: 'app/views/digital.html'
+      })
+  .when('/graphic',
      {
-       controller: 'AdamController',
-       templateUrl: 'app/views/adam.html'
+       controller: 'GDController',
+       templateUrl: 'app/views/graphic.html'
      })
+   .when('/indesign',
+      {
+        controller: 'IDController',
+        templateUrl: 'app/views/graphic.html'
+      })
+    .when('/paintings',
+       {
+         controller: 'PController',
+         templateUrl: 'app/views/paintings.html'
+       })
 });
-app.controller('WorksController', function($scope){
+app.controller('IllustrationsController', function($scope){
   $scope.customerID = 5;
 });
-app.controller('NewsController', function($scope){
+app.controller('AboutController', function($scope){
   $scope.customerID = 5;
 });
-app.controller('StoryController', function($scope){
+app.controller('MainController', function($scope){
   $scope.customerID = 5;
 });
 app.controller('ContactController', function($scope){
   $scope.customerID = 5;
 });
-app.controller('AdamController', function($scope){
+app.controller('GDController', function($scope){
+  $scope.customerID = 5;
+});
+app.controller('IDController', function($scope){
+  $scope.customerID = 5;
+});
+app.controller('PController', function($scope){
   $scope.customerID = 5;
 });
 app.controller('HomeController', function($scope) {

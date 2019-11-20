@@ -46,6 +46,9 @@
 
     <script src="js/vendor/angular-1.7.8/angular.min.js"></script>
     <script src="js/vendor/angular-1.7.8/angular-route.min.js"></script>
+    <script src="../js/vendor/angular-1.7.8/angular.js"></script>
+    <script src="../js/vendor/angular-1.7.8/angular-animaate.js"></script>
+    <script src="../js/vendor/angular-1.7.8/angular-route.js"></script>
 
   </head>
   <body>
@@ -58,16 +61,16 @@
         <ul class="vertical menu" data-accordion-menu>
           <li><a href="#">ART</a>
             <ul class="menu vertical nested">
-              <li><a href="graphic.html">Graphic Design</a></li>
-              <li><a href="indesign.html">InDesign</a></li>
-              <li><a href="digital.html">Digital Art</a></li>
-              <li><a href="illustrations.html">Illustrations</a></li>
-              <li><a href="paintings.html">Paintings</a></li>
+              <li><a href="index.html#!/graphic">Graphic Design</a></li>
+              <li><a href="index.html#!/indesign">InDesign</a></li>
+              <li><a href="index.html#!/digital">Digital Art</a></li>
+              <li><a href="index.html#!/illustrations">Illustrations</a></li>
+              <li><a href="index.html#!/paintings">Paintings</a></li>
              </ul>
           </li>
          </ul>
-        <li><a href="about/index.html">ABOUT ME</a></li>
-        <li><a href="contact.html">CONTACT ME</a></li>
+        <li><a href="index.html#!/about">ABOUT ME</a></li>
+        <li><a href="index.html#!/contact">CONTACT ME</a></li>
       </ul>
 
       <ul class="menu simple social-links">
@@ -105,57 +108,11 @@
 
  <br></br>
 
-    <!-- *Begin Header* -->
-    <header>
-      <div class="marketing-site-hero">
-        <div class="marketing-site-hero-content">
-          <h1>SeudoArt</h1>
-        </div>
-      </div>
-    </header>
-    <!-- *End Header* -->
+
 
 
     <!-- *Begin Content* -->
-
-      <div class="container-row center">
-
-          <div class="container flex-wrap">
-            <img src="img/Wolf-Kings.jpg" alt="img/sunrise-airlines.jpg" style="width:100%">
-            <button class="container btn"><a href="graphic.html">GRAPHIC DESIGN</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/stargazer.png" alt="img/mash.jpg" style="width:100%">
-            <button class="container btn"><a href="digital.html">DIGITAL ART</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/shinee-moon.jpg" alt="img/mash.jpg" style="width:100%">
-            <button class="container btn"><a href="illustrations.html">ILLUSTRATIONS</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/exo-studios.jpg" alt="img/mash.jpg" style="width:100%">
-            <button class="container btn"><a href="indesign.html">INDESIGN</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/Visionaire.jpg" alt="img/mash.jpg" style="width:100%">
-            <button class="container btn"><a href="paintings.html">PAINTINGS</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/name-logo.jpg" alt="img/blind-owl.jpg" style="width:100%">
-            <button class="container btn bottomleft"><a href="about/index.html">ABOUT ME</a></button>
-          </div>
-
-          <div class="container flex-wrap">
-            <img src="img/seudo-productions.jpg" alt="" style="width:100%">
-            <button class="container btn"><a href="contact.html">CONTACT ME</a></button>
-          </div>
-
-      </div>
+    <div ng-view></div>
 
 
     <!-- *End Content* -->
@@ -179,8 +136,8 @@
             <div class="column">
               <ul class="menu marketing-site-footer-bottom-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="about/index.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#!/about">About</a></li>
+                <li><a href="index.html#!/contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -195,6 +152,7 @@
     <script src="js/app.js"></script>
 
     <script src="js/spa.js"></script>
+
 
   </body>
 </html>
