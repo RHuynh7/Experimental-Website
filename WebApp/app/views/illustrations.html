@@ -1,28 +1,18 @@
-<!-- *Begin Header* -->
-  <header>
-    <div class="marketing-site-hero">
-      <div class="marketing-site-hero-content">
-        <h1>Illustrations</h1>
+<h1>{{ title }}</h1>
+<h2>{{ promo }}</h2>
+
+
+<div class="grid-x grid-padding-x">
+<div  class="large-8 medium-8 cell">
+  <div class="grid-x grid-padding-x">
+    <div ng-repeat="product in products" class="large-4 medium-4 small-4 cell">
+      <div class="primary callout">
+        <div class="thumbnail">
+          <img ng-src="{{ product.cover }}">
+          <p class="title">{{ product.name }}</p>
+        </div>
       </div>
     </div>
-  </header>
-<!-- *End Header* -->
-
-<body ng-app="spaApp">
-
-<div class="main" ng-controller="IllController">
-   <div class="container">
-
-     <h1>{{ title }}</h1>
-     <h2>{{ promo }}</h2>
-
-     <div ng-repeat="product in products" class="col-md-6">
-      <div class="thumbnail">
-        <img ng-src="{{ product.cover }}">
-        <p class="title">{{ product.name }}</p>
-
-      </div>
-    </div>
-
-   </div>
- </div>
+  </div>
+</div>
+</div>
