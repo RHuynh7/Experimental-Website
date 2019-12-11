@@ -40,6 +40,11 @@ app.config(function($routeProvider) {
          controller: 'PController',
          templateUrl: 'app/views/paintings.html'
        })
+   .when('/lightbox',
+      {
+        controller: 'GDController',
+        templateUrl: 'app/views/lightbox.html'
+      })
 });
 
 app.controller('IllController', ['$scope', function IllController($scope) {
