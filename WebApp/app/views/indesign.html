@@ -11,7 +11,8 @@
       <a href='{{ product.cover }}'
          class="fresco"
          data-fresco-group="example_ui_outside"
-         data-fresco-caption="{{ product.name }}">
+         data-fresco-caption="{{ product.name }}"
+         data-fresco-group-options="overflow: true, thumbnails: 'vertical', onClick: 'close'">
               <div class="primary callout">
                 <div class="thumbnail">
                   <img ng-src="{{ product.cover }}">
@@ -19,6 +20,21 @@
                 </div>
               </div>
       </a>
+
+<!--
+      <a href="{{ product.cover }}"
+         class="fresco"
+         data-fresco-group='overflow-example'
+         data-fresco-group-options="overflow: true, thumbnails: 'vertical', onClick: 'close'">
+             <div class="primary callout">
+               <div class="thumbnail">
+                 <img ng-src="{{ product.cover }}">
+                 <p class="title">{{ product.name }}</p>
+               </div>
+             </div>
+       </a>
+-->
+
     </div>
   </div>
 </div>
