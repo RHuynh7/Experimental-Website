@@ -3,32 +3,17 @@
 <h1>{{ title }}</h1>
 <h2>{{ promo }}</h2>
 
-
-<div class="grid-x grid-padding-x">
-<div  class="large-8 medium-8 cell">
-  <div class="grid-x grid-padding-x">
-    <div ng-repeat="product in products" class="large-4 medium-4 small-4 cell">
-      <a href='{{ product.cover }}'
-         class="fresco"
-         data-fresco-group="example_ui_outside"
-         data-fresco-caption="{{ product.name }}">
-              <div class="primary callout">
-                <div class="thumbnail">
-                  <img ng-src="{{ product.cover }}">
-                  <p class="title">{{ product.name }}</p>
-                </div>
-              </div>
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-
+<!-- class="card-center" -->
 
 <div class="card" ng-repeat="product in products">
-  <img class="card-img" ng-src="{{ product.cover }}"/>
-  <div class="card-info">
-  <h1 class="card-title">{{ product.name }}</h1>
-  <p class="card-author">Author Name</p>
-  </div>
+  <a href='{{ product.cover }}'
+     class="fresco"
+     data-fresco-group="example_ui_outside"
+     data-fresco-caption="{{ product.name }}">
+       <img class="card-img" ng-src="{{ product.cover }}"/>
+  </a>
+       <div class="card-info">
+       <h1 class="card-title">{{ product.name }}</h1>
+       <!-- <p class="card-author">Author Name</p> -->
+       </div>
 </div>

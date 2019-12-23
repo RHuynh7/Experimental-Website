@@ -80,6 +80,18 @@
 
 .card {
   width: 350px;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.card-center {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
 .card-info {
@@ -93,26 +105,9 @@
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 1.25rem;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-}
-
-.card-icon {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  justify-self: right;
-  width: 30px;
-  height: 30px;
-  background-color: LightBlue;
-  border-radius: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column-align: center;
-      justify-items: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .card-author {
@@ -122,12 +117,4 @@
       -ms-flex-item-align: bottom;
               -ms-grid-row-align: bottom;
           align-self: bottom;
-}
-
-.card-stats {
-  -webkit-align-self: bottom;
-      -ms-flex-item-align: bottom;
-              -ms-grid-row-align: bottom;
-          align-self: bottom;
-  justify-self: right;
 }
