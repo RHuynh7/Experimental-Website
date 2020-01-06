@@ -120,82 +120,67 @@
 }
 
 
-.expand-column-wrapper {
-  height: 100vh;
-  max-wdtih: 75rem;
+.ecommerce-product-slider .orbit-previous,
+.ecommerce-product-slider .orbit-next {
+  color: #cacaca;
 }
 
-.expand-column-wrapper .column {
+.ecommerce-product-slider .orbit-bullets button {
+  height: 0.65rem;
+  width: 0.65rem;
+}
+
+.ecommerce-product-slider .product-card {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
   padding: 1rem;
-  transition: all 0.5s ease-in-out;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
-.expand-column-wrapper .column:hover {
-  -webkit-flex-basis: 40%;
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%;
+.ecommerce-product-slider .product-card-thumbnail {
+  display: block;
+  position: relative;
 }
 
-.expand-column-wrapper .column:hover .expand-column-content {
-  opacity: 1;
+.ecommerce-product-slider .product-card-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
-.expand-column-wrapper .expand-column-content {
-  color: #fefefe;
-  font-weight: bold;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
+.ecommerce-product-slider .product-card-desc {
+  color: #8a8a8a;
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.85rem;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .expand-column-wrapper {
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+.ecommerce-product-slider .product-card-price {
+  color: #3e3e3e;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
 }
 
-.expand-column-wrapper .column:nth-of-type(1) {
-  background: url("https://images.pexels.com/photos/2154/sky-lights-space-dark.jpg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
+.ecommerce-product-slider .product-card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
 }
 
-.expand-column-wrapper .column:nth-of-type(2) {
-  background: url("https://images.pexels.com/photos/113744/helix-nebula-ngc-7293-planetary-fog-constellation-aquarius-113744.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
+.ecommerce-product-slider .product-card-colors {
+  display: block;
+  margin-top: 0.8rem;
 }
 
-.expand-column-wrapper .column:nth-of-type(3) {
-  background: url("https://images.pexels.com/photos/2162/sky-space-dark-galaxy.jpg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
-}
-
-.expand-column-wrapper .column:nth-of-type(4) {
-  background: url("https://images.pexels.com/photos/24248/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
-}
-
-.expand-column-wrapper .column:nth-of-type(5) {
-  background: url("https://images.pexels.com/photos/41951/solar-system-emergence-spitzer-telescope-telescope-41951.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
-}
-
-.expand-column-wrapper .column:nth-of-type(6) {
-  background: url("https://images.pexels.com/photos/2156/sky-earth-space-working.jpg") center center no-repeat;
-  height: 100vh;
-  background-size: cover;
+.ecommerce-product-slider .product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
 }
