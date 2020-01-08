@@ -133,8 +133,11 @@
 .ecommerce-product-slider .product-card {
   background-color: #fefefe;
   border: 1px solid #e6e6e6;
-  padding: 1rem;
+  padding: 1.5rem;
   margin-bottom: 1.5rem;
+  width: 300px;
+  display: inline-block;
+  position: relative;
 }
 
 .ecommerce-product-slider .product-card-thumbnail {
