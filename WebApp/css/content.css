@@ -141,8 +141,9 @@
 }
 
 .ecommerce-product-slider .product-card-thumbnail {
-  display: block;
+  display: inline-block;
   position: relative;
+  height: 300px;
 }
 
 .ecommerce-product-slider .product-card-title {
